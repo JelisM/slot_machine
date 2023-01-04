@@ -15,11 +15,12 @@ let start, reset
 const h2El = document.querySelector('h2')
 const boxdEl = document.getElementById('box')
 const resetBtnEl = document.createElement('button')
+const playBtnEl  =  document.createElement('button')
 
 
 
 /*----- event listeners -----*/ 
-boardEl.addEventListener('click', handleBoxClick)
+button.addEventListener('click', getRandomNbr)
 
 
 /*----- functions -----*/
