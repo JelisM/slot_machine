@@ -13,13 +13,10 @@ let start, reset
 
 /*----- cached element references -----*/ 
 const h2El = document.querySelector('h2')
-const boxdEl = document.getElementById('box')
-const resetBtnEl = document.createElement('button')
-const playBtnEl  =  document.createElement('button')
-
-
+const boxdEl = document.getElementById('slots')
 
 /*----- event listeners -----*/ 
+
 button.addEventListener('click', getRandomNbr)
 
 
@@ -54,8 +51,8 @@ function getElement() {
 
 function spin() {
 
-    const item1  = getElement('item1');
-    const item2  = getElement('item2');
-    const item3  = getElement ('item3');
+    const number1  = getElement('item1');
+    const number2  = getElement('item2');
+    const number3  = getElement ('item3');
 }
 
