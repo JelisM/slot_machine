@@ -50,3 +50,9 @@ button {
   border-radius: 5px;
   padding: 10px 15px;
 }
+#numberOne, #numberTwo, #numberThree {
+  font-size: 10vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
