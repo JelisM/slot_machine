@@ -1,58 +1,60 @@
-/*----- constants -----*/ 
-
-let player =  null;
-
+/*----- constants -----*/
 
 
 
 
 /*----- app's state (variables) -----*/ 
 
-let start, reset
+let start
 
 
 /*----- cached element references -----*/ 
 const h2El = document.querySelector('h2')
 const boxdEl = document.getElementById('slots')
+const playBtn = document.getElementById('spinner')
+const resetBtn = document.getElementById('reseter')
+const item1 = document.getElementById('numberOne')
+const item2 = document.getElementById('numberTwo')
+const item3 = document.getElementById('numberThree')
 
 /*----- event listeners -----*/ 
 
-button.addEventListener('click', getRandomNbr)
+playBtn.addEventListener('click', spin)
+//resetBtn.addEventListener('click', reset)
 
 
 /*----- functions -----*/
 
-function render() {
-    renderMessage()
-    renderBoard()
-    if ((winner) || !board.includes(null)){
-        renderResetBtn()
-
-    }
-
-}
-
 function init() {
 
-
+ 
 
 }
 
 function getRandomNbr() {
 
-    return Math.floor(Math.random()*2) + 2;
-}
-
-function getElement() {
-    return document.getElementById();
+   return Math.floor(Math.random()*(4)) + 1;
 
 
 }
 
-function spin() {
+ function spin() {
 
-    const number1  = getElement('item1');
-    const number2  = getElement('item2');
-    const number3  = getElement ('item3');
+    const num1 = getRandomNbr();
+    const num2 = getRandomNbr();
+    const num3 = getRandomNbr();
+    console.log(num1, num2, num3);
+
+    item1.innerHTML = `${num1}`;
+    item2.innerHTML = `${num2}`;
+    item3.innerHTML = `${num3}`;
+
+    if (num1 === num2 && num1 === num3) {
+      
+        h2El.innerHTML= "Jackpot!!!";
+    } else {
+        h2El.innerHTML= "Try again!";
+    }
+
 }
 

@@ -38,10 +38,6 @@ h2{
   margin: 5px;
 }
 
-.boxes {
-  transition: transform 1s ease-in-out;
-}
-
 .buttons {
   margin: 1rem 0 2rem 0;
 }
