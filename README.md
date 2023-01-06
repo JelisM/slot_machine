@@ -21,13 +21,14 @@ Take a peek on the game!!!
 
 <img width="1329" alt="Screenshot 2023-01-05 at 8 47 23 PM" src="https://user-images.githubusercontent.com/120356496/210916415-f8d9256b-5ffd-4605-802f-5595a3a08244.png">
 
-## Ice box features:
+---
+### Ice box features:
 
 ☐ Add sound
 ☐ Add emoji or pictures
 ☐ Add effects for the numbers spin
 ☐ Add features for bet money
 ☐ Calculate and show the user funds and based on that let the user keep  playing.
-
-`````Give it a try!!!```
+---
+```Give it a try!!!```
 https://jelism.github.io/slot_machine/
