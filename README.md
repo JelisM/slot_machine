@@ -24,11 +24,11 @@ Take a peek on the game!!!
 ---
 ### Ice box features:
 
-☐ Add sound
-☐ Add emoji or pictures
-☐ Add effects for the numbers spin
-☐ Add features for bet money
-☐ Calculate and show the user funds and based on that let the user keep  playing.
+- Add sound
+- Add emoji or pictures
+- Add effects for the numbers spin
+- Add features for bet money
+- Calculate and show the user funds and based on that let the user keep  playing.
 ---
-```Give it a try!!!```
-https://jelism.github.io/slot_machine/
+```Give it a try!!!
+https://jelism.github.io/slot_machine/ ```
