@@ -21,5 +21,5 @@ Take a peek on the game!!!
 
 
 
-Give it a try!
+Give it a try!!!
 https://jelism.github.io/slot_machine/
