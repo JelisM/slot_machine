@@ -30,6 +30,7 @@ Take a peek on the game!!!
 - Add features for bet money
 - Calculate and show the user funds and based on that let the user keep  playing.
 ---
+#
 **Give it a try!!!**
 https://jelism.github.io/slot_machine/ 
 ---
